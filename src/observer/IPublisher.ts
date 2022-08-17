@@ -1,4 +1,4 @@
-import {ISubscriber} from './ISubsriber';
+import {ISubscriber} from './ISubscriber';
 
 export interface IPublisher {
   subscribe(observer: ISubscriber): void;

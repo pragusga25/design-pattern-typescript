@@ -1,4 +1,4 @@
-import {ISubscriber} from './ISubsriber';
+import {ISubscriber} from './ISubscriber';
 
 export class Subscriber implements ISubscriber {
   constructor(private name: string) {}

@@ -1,5 +1,5 @@
 import {IPublisher} from './IPublisher';
-import {ISubscriber} from './ISubsriber';
+import {ISubscriber} from './ISubscriber';
 
 export class Channel implements IPublisher {
   private subscribers: ISubscriber[] = [];
